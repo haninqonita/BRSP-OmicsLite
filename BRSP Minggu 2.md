@@ -9,9 +9,9 @@ Tujuh belas metabolit C. papaya diperoleh datanya dari database analisis IJAH (A
 ![Metods and Results Illustration](/diagram workflow "This is a sample image.")
 
 ## Hasil dan Pembahasan
-![This is an alt text.](/image/diagram venn "This is a sample image.")
+![This is an alt text.](/diagram venn "This is a sample image.")
 Analisis menggunakan diagram Venn pada Gambar 2 menunjukkan terdapat 13 gen irisan antara gen terkait malaria dan target dari metabolit daun C. papaya. Hal ini megindikasikan potensi 13 metabolit tersebut dalam memodulasi jalur biologis yang berkaitan dengan patofisioloi malaria. Daftar gen irisan kemudian dimasukkan ke dalam platform STRING untuk membangun jaringan dan mengidentifikasi hub protein dengan mencari top 9 target utama menggunakan cytoHubba. Top 9 hub gen (Tabel 1) ditentukan berdasarkan nilai degree dari masing-masing node. Interaksi antara gen-gen tersebut ditunjukkan pada Gambar 3 dan direpresentasikan oleh 9 node dan 14 edge.
-![Metods and Results Illustration](/ppi string 2 "This is a sample image.")
+![This is an alt text.](/ppi strin "This is a sample image.")
 ![Metods and Results Illustration](/string_interactions_short.tsv_Degree_top9 "This is a sample image.")
 ![Metods and Results Illustration](/tabel brsp "This is a sample image.")
 Tabel di atas memperlihatkan bahwa TNF merupakan protein dengan tingkat sentralitas tertinggi. Nilai degree menunjukkan seberapa banyak koneksi yang terhubung langsung dengan protein terkait, betweenness centrality berarti seberapa sering suatu protein menjadi penghubung antar node, dan closeness centrality yaitu seberapa dekat suatu node dengan seluruh node lain dalam jaringan atau seberapa banyak edge yang harus dilalui untuk mencapai node lain. Hasil ini mengindikasikan bahwa TNF diperkirakan memiliki pengaruh terbesar terhadap stabilitas dan regulasi jaringan. TLR4 berada pada peringkat kedua dan target lain seperti ICAM1, TLR2, CCR5, TLR7, NOS2, IDO1, dan MYC memiliki nilai centrality yang lebih rendah sehingga lebih berperan sebagai node perifer dengan kontribusi yang lebih spesifik atau berkontribusi terhadap efek samping. Hasil ini menunjukkan bahwa TNF dan TLR4 merupakan kandidat target molekuler utama untuk dianalisis lebih lanjut dalam mekanisme penyakit malaria.
