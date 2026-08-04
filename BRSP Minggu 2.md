@@ -9,7 +9,7 @@ Tujuh belas metabolit C. papaya diperoleh datanya dari database analisis IJAH (A
 ![Metods and Results Illustration](/diagram workflow "This is a sample image.")
 
 ## Hasil dan Pembahasan
-![This is an alt text.](/diagram venn "This is a sample image.")
+![This is an alt text.](/diagram venn.png "This is a sample image.")
 Analisis menggunakan diagram Venn pada Gambar 2 menunjukkan terdapat 13 gen irisan antara gen terkait malaria dan target dari metabolit daun C. papaya. Hal ini megindikasikan potensi 13 metabolit tersebut dalam memodulasi jalur biologis yang berkaitan dengan patofisioloi malaria. Daftar gen irisan kemudian dimasukkan ke dalam platform STRING untuk membangun jaringan dan mengidentifikasi hub protein dengan mencari top 9 target utama menggunakan cytoHubba. Top 9 hub gen (Tabel 1) ditentukan berdasarkan nilai degree dari masing-masing node. Interaksi antara gen-gen tersebut ditunjukkan pada Gambar 3 dan direpresentasikan oleh 9 node dan 14 edge.
 ![This is an alt text.](/ppi strin "This is a sample image.")
 ![Metods and Results Illustration](/string_interactions_short.tsv_Degree_top9 "This is a sample image.")
