@@ -6,6 +6,7 @@
 
 ## Workflow Penelitian
 Tujuh belas metabolit C. papaya diperoleh datanya dari database analisis IJAH (Arwansyah et al, 2025), dan diprediksi target proteinnya menggunakan SwissTargetPrediction. Daftar gen malaria yang telah diperoleh dari OMIM, kemudian diiriskan dengan target senyawa untuk mendapatkan target potensial yang relevan. Target protein irisan dikonstruksi melalui STRING (high confidence) dan dianalisis di Cytoscape untuk mendapatkan visualisasi network Protein-Protein Interaction (PPI). Target protein irisan juga digunakan untuk analisis pengayaan KEGG pathway melalui STRING (FDR < 0,05) dan visualisasi 20 gen teratas di Cytoscape. Kemudian hasilnya diintegrasikan dengan jaringan senyawa-target dan PPI menggunakan fitur Merge Network pada Cytoscape. Hasil visualisasi kemudian dapat diinterpretasikan hasilnya. Proses analisis dapat diperkuat dengan data analisis pengayaan tambahan pada kategori Gene Ontology (GO) Biological Processes, GO Molecular Function, dan KEGG Pathway yang diperoleh dari Metascape.
+
 ![This is an alt text.](/diagram_workflow.png "This is a sample image.")
 
 ## Hasil dan Pembahasan
